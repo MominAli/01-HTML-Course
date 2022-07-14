@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+    transition: all .2s ease
+}
+
+:root{
+    --color:#c272cf;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    height: 100vh;
+    background: url(../images/Vector.png) no-repeat;
+    background-size: 100% 25%;
+    background-position: top;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25rem auto;
+}
+
+.form-container{
+    display: flex;
+    align-items: center;
+    height: 40rem;
+    width: 33rem;
+    /* overflow-x: hidden; */
+}
+form {
+    height: 35rem;
+    width: 30rem;
+    margin-left: 2rem;
+    display: grid;
+    place-items:center;
+    border:1px solid  #ccc;
+    box-shadow: 9px 9px 0px var(--color);
+    border-radius: 1rem;
+    background: #fff;
+}
+
+form i {
+       color: var(--color);
+       font-size: 20rem;
+       margin-top: -4rem;
+       background: #fff;
+       width: 6rem;
+       text-align: center;
+       border: 1px solid #fff;
+}
+
+form h2{
+    font-size: 2rem;
+    color:#333;
+
+}
+form .box{
+    height: 3rem;
+    width: 80%;
+    padding: 0 2rem;
+    outline:none;
+    border:none;
+    background-color: #e6e6e6;
+    color:#333;
+    border-radius: 5rem;
+}
+form input[type="submit"]{
+    height: 3rem;
+    width: 7rem;
+    margin-left: 1rem;
+    background: #333;
+    color: #fff;
+    border-radius: 5rem;
+    cursor: POINTER;
+}
+form input[type="submit"]:hover{
+    background: var(--color);
+}
+form a {
+    font-size:1.5rem;
+    color:#333;
+    margin-left: -11rem;
+}
+/* .container .images{
+    width: 36rem;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+} 
+.container .images > img{
+    height: 160px;
+    margin-top: 1rem;
+    margin-left: -18rem;
+} */
+
+.controls{
+    position: absolute;
+    top: 2rem;
+    right: 21%;
+    height: 6rem;
+    width: 15rem;
+    /* overflow: hidden; */
+}
+/* .controls .sign-up{
+    position: absolute;
+    top: 20rem;
+    right: 21%;
+    height: 6rem;
+    width: 15rem;
+    overflow: hidden;
+} */
+
+.controls h1 {
+    color:#fff;
+    border: .2rem solid #fff;
+    padding: 1rem 2rem;
+    margin-top:1rem;
+    border-radius: 5rem;
+    cursor: pointer;
+    text-align: center;
+}
+@media screen {
+    
+}
